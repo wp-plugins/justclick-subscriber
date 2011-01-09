@@ -1,7 +1,7 @@
 <?php
 
 /*
-Plugin Name: JustClick registration plugin
+Plugin Name: JustClick Subscriber
 Plugin URI: http://www.justclick.ru/
 Description: Subscribes user on JustClick mailing list after registration
 Version: 0.1
@@ -175,7 +175,7 @@ function justclick_manage_rassilki()
 // Add sub-menus...
 function justclick_menu()
 {
-	add_options_page(__('JustClick', 'justclick'), __('JustClick', 'justclick'), 1, basename(__FILE__), 'justclick_manage_rassilki');
+	add_options_page(__('JustClick Subscriber', 'justclick'), __('JustClick Subscriber', 'justclick'), 1, basename(__FILE__), 'justclick_manage_rassilki');
 	/* JustClick */
 }
 

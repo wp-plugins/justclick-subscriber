@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: JustClick plugin for WordPress\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-07 21:41+0300\n"
-"PO-Revision-Date: 2011-01-07 21:42+0300\n"
+"POT-Creation-Date: 2011-01-09 20:36+0300\n"
+"PO-Revision-Date: 2011-01-09 20:37+0300\n"
 "Last-Translator: Kostin Aleksey <ostin654@gmail.com>\n"
 "Language-Team: JustClick <support@justclick.ru>\n"
 "MIME-Version: 1.0\n"
@@ -14,57 +14,61 @@ msgstr ""
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-SearchPath-0: d:\\Denwer\\home\\jc\\wp152\\wp-content\\plugins\\justclick-subscriber\n"
+"X-Poedit-SearchPath-0: d:\\Denwer\\home\\jc\\wp\\wp-content\\plugins\\justclick-subscriber\n"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:116
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:104
 msgid "Full name"
 msgstr "Полное имя"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:126
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:114
 msgid "Phone number"
 msgstr "Номер телефона"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:136
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:124
 msgid "Subscribe to mailing list"
 msgstr "Подписаться на рассылки"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:152
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:140
 msgid "Changes saved"
 msgstr "Изменения сохранены"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:160
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:148
 msgid "<b>ERROR</b>: This plugin requires function <code>stream_socket_client</code> to be defined. You need to upgrade to PHP 5."
 msgstr "<b>ОШИБКА</b>: Данный плагин требует функцию <code>stream_socket_client</code>, которая не определена. Вам необходимо использовать PHP 5."
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:164
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:152
 msgid "Subscribe settings"
 msgstr "Настройки подписки"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:169
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:157
 msgid "Subscribe user after register"
 msgstr "Включить подписку при регистрации"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:174
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:162
 msgid "JustClick subscribe form code"
 msgstr "Код формы подписки"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:177
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:165
 msgid "Get this code in your member area on www.justclick.ru (Mail / Mailing lists)"
 msgstr "Вставьте сюда полный код формы подписки, которые вы получили в личном кабинете JustClick в разделе Почта/Рассылки"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:181
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:169
 msgid "Save"
 msgstr "Сохранить"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:190
-msgid "JustClick"
-msgstr "JustClick"
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:178
+msgid "JustClick Subscriber"
+msgstr "Подписка JustClick"
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:202
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:192
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:193
 msgid "<b>ERROR</b>: Fill in your full name."
 msgstr "<b>ОШИБКА</b>: Пожалуйста, укажите ваше полное имя."
 
-#: d:\Denwer\home\jc\wp152\wp-content\plugins\justclick-subscriber/justclick.php:220
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:213
+#: d:\Denwer\home\jc\wp\wp-content\plugins\justclick-subscriber/justclick.php:214
 msgid "<b>ERROR</b>: Fill in your phone number."
 msgstr "<b>ОШИБКА</b>: Пожалуйста, укажите ваш номер телефона."
 
+#~ msgid "JustClick"
+#~ msgstr "JustClick"
