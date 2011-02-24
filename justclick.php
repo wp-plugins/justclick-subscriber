@@ -152,23 +152,24 @@ function justclick_manage_rassilki()
 		<h2><?php echo __('Subscribe settings', 'justclick'); ?></h2>
 		<? /* Настройки подписки */ ?>
 		<form method="post" action="<?php echo $_SERVER['PHP_SELF'] . '?page=' . basename(__FILE__); ?>">
-		<table class='form-table'>
-			<tr>
-				<td><?php echo __('Subscribe user after register', 'justclick'); ?></td>
-				<? /* Включить подписку при регистрации */ ?>
-				<td colspan="2"><input type="checkbox" name="enabled" value="1"<?if ($plugin_justclick_enabled>0):?> checked<?endif?> /></td>
-			</tr>
-			<tr>
-				<td><?php echo __('JustClick subscribe form code', 'justclick'); ?></td>
-				<? /* Код формы подписки */ ?>
-				<td><textarea name="formcode" cols="60" rows="10"><?php echo htmlspecialchars($plugin_justclick_formcode); ?></textarea></td>
-				<td><small><?php echo __('Get this code in your member area on www.justclick.ru (Mail / Mailing lists)', 'justclick'); ?></small></td>
-				<? /* Вставьте сюда полный код формы подписки, которые вы получили в личном кабинете JustClick в разделе Почта/Рассылки */ ?>
-			</tr>
-		</table>
-		<p class="submit"><input type="submit" name="submit" value="<?php echo __('Save', 'justclick'); ?>" /></p>
-		<? /* Сохранить */ ?>
-	</form>
+			<table class='form-table'>
+				<tr>
+					<td><?php echo __('Subscribe user after register', 'justclick'); ?></td>
+					<? /* Включить подписку при регистрации */ ?>
+					<td colspan="2"><input type="checkbox" name="enabled" value="1"<?if ($plugin_justclick_enabled>0):?> checked<?endif?> /></td>
+				</tr>
+				<tr>
+					<td><?php echo __('JustClick subscribe form code', 'justclick'); ?></td>
+					<? /* Код формы подписки */ ?>
+					<td><textarea name="formcode" cols="60" rows="10"><?php echo htmlspecialchars($plugin_justclick_formcode); ?></textarea></td>
+					<td><small><?php echo __('Get this code in your member area on www.justclick.ru (Mail / Mailing lists)', 'justclick'); ?></small></td>
+					<? /* Вставьте сюда полный код формы подписки, которые вы получили в личном кабинете JustClick в разделе Почта/Рассылки */ ?>
+				</tr>
+			</table>
+			<p class="submit"><input type="submit" name="submit" value="<?php echo __('Save', 'justclick'); ?>" /></p>
+			<? /* Сохранить */ ?>
+		</form>
+	</div>
 	<?php
 }
 
