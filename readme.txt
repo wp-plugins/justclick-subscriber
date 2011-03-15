@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: ostin654
 Donate link: http://www.alekseykostin.ru/
-Tags: registration
+Tags: registration, justclick
 Requires at least: 2.1
 Tested up to: 3.0.4
 Stable tag: 0.1
