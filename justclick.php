@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: JustClick Subscriber
-Plugin URI: http://www.justclick.ru/
+Plugin URI: http://www.alekseykostin.ru/193/
 Description: Subscribes user on JustClick mailing list after registration
 Version: 0.1
 Author: Kostin Aleksey
